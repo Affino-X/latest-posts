@@ -34,19 +34,33 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    top: 216px;
-    border-radius: 16px;
+    top: 210px;
     height: 200px;
     width: 670px;
-    left: 8px;
+    left: 0;
     font-weight: 600;
     font-size: 22px;
     line-height: 30px;
+    text-decoration: none;
     color: #fff;
     
 }
-.latest-post-main__title a {
-    width: 622px;
-    margin-bottom: 20px;
+.latest-post-main__link-title {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    top: -25px;
+    height: 200px;
+    width: 670px;
+    left: 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+.latest-post-main__link {
+    display: flex;
+    height: 100%;
+    z-index: 2;
 }
   
