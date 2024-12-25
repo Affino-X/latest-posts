@@ -1,6 +1,7 @@
 .latest-post {
     display: flex;
     flex-flow: row;
+    margin-bottom: 60px;
 } 
 
 .latest-post-main {

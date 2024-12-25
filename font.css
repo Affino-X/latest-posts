@@ -3,6 +3,7 @@
 body {
     font-family: "Inter";
     display: flex;
+    flex-flow: column;
     align-items: center; /* Центрирует по вертикали */
     justify-content: center; /* Центрирует по горизонтали */
     height: 100vh;
