@@ -46,21 +46,20 @@
     
 }
 .latest-post-main__link-title {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    top: -25px;
-    height: 200px;
-    width: 670px;
-    left: 0;
+    width: 622px;
     text-decoration: none;
     color: #fff;
+    margin-bottom: 25px;
+    
 }
 
 .latest-post-main__link {
+    position: absolute;
     display: flex;
     height: 100%;
-    z-index: 2;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
   

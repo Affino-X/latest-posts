@@ -75,15 +75,16 @@ const renderLatestPost = (post) => {
 
     latestPostMain.innerHTML = 
     (`
-      <a href="${post.link}" class="latest-post-main__link">
+      
         <img src="${post.image}" alt="Main Post Image" class="latest-post-main__image" />
+     
         <div class='shadow'></div>
-      </a>
-      <a href="${post.link}" class="latest-post-main__link-title">
+        <a href="${post.link}" class="latest-post-main__link">
+        </a>
         <h3 class="latest-post-main__title">
-            ${post.title}
+            <a href="${post.link}" class="latest-post-main__link-title">${post.title}</a>
         </h3>
-      </a>
+      
       
      `
     )
